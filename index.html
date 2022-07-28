@@ -1,0 +1,307 @@
+<html>
+    <head>
+<style>
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+background-color:#0b0c0d ; 
+}
+.rectangle{  
+    top: 0px;
+    background-image:url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    background-position: center;
+
+}
+li.left  {
+    float: left;
+    padding-left: 75px;
+    padding-top: 32px;
+    font-size: 37px;
+    color:#FCA738;
+}
+li.right {
+    float:right;
+    padding:32px;
+    font-size: 22px;
+    color: #105652;
+}
+
+li a {
+    display: block;
+    color: #FCA738;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.para{
+    position: absolute;
+	top: 365px;
+	left:8%;
+    text-align:left;
+    letter-spacing: 0px;
+    color: #FCA738;
+    font-size: 37px;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 30px;
+    background-color: #FCA738;
+    border-radius: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+.btn1 {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: #6495ED;
+    border-radius: 10px;
+    border: none;
+}
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 530px;
+    border-radius: 20px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #FCA738;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+}
+.skill{
+    height: 700px;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding:0px 60px;
+    justify-content:space-around;
+}
+.img1{
+    border-radius: 20px;
+    margin: 10px;
+}
+.cont{
+    background-color: #191919;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.form1{
+    width: 500px;
+    height: 500px;
+}
+label{
+    color: white;
+}
+input[type=text], select, textarea {
+   width: 100%;
+   padding: 12px;
+   background-color: #2E4586;
+   border: 1px solid;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+  
+}
+
+input[type=submit] {
+   background-color: #FCA738;
+   color: black;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0b0c0d;
+  color: white;
+}
+
+.content{
+    height: 500px;
+    width: 500px;
+    float: left;
+    background-image:url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    border-radius: 5px;
+    background-color:#191919;
+    padding: 20px;
+    width: 700px;
+    height: 700px;
+    width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.content > h3{
+    color:white;
+    font-size:30px;
+    text-align: left;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.contact{
+ color: #FCA738;
+ margin-top: 50px;
+ font-size: 20px;
+ text-align: left;
+ margin-left: 20px;
+}
+footer {
+  text-align: center;
+  height: 100px;
+  padding: 10px;
+  background-color: #2E4586;
+  color: white;
+}
+.foot{
+    color:white;
+    font-size: 20px;
+    margin-top: 25px;
+}
+</style>
+    </head>
+    <body>
+        <div class="rectangle">
+            <ul class="topnav" type="none">
+                <li class="left"><b>Portfolio</b></li>
+                <li class="right"><a href="#contact">Contact</a></li>
+                <li class="right"><a href="#resume">Resume</a></li>
+                <li class="right" ><a href="#portfolio">Portfolio</a></li>
+                <li class="right"><a href="#about">About </a></li>
+                <li class="right" ><a href="#home">Home</a></li>
+            </ul>
+      <div class="para"><p><b>Hi , My Name is Sejal Kashyap</b></p>
+        <p> I'm a Front End Developer
+       </p>
+       <button class="btn" ><b>Hire me</b></button>
+       <button class="btn1" ><b>Get resume</b></button>
+   </div>        
+        </div>
+        <section class="about">
+            <div class="main">
+                <img src="image3.jpg" >
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <h5>Developer <span>& Designer</span></h5>
+                    <p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+                </div>
+            </div>
+        </section>
+    <section class="skill">
+        <h1 >My Portfolio</h1>
+        <div class="skills">
+            <img src="img-1.jpg" class="img1">
+            <img src="img-2.jpg" class="img1">
+            <img src="img-3.jpg" class="img1">
+            <img src="img-4.jpg" class="img1">
+            <img src="img-5.jpg" class="img1">
+            <img src="img-6.jpg" class="img1">
+        </div>
+    </section>
+    <section class="cont">
+        <h1>Contact Me</h1>
+        <div class="container">
+            <div class="content">
+                <h3>Let's connect</h3>
+                <p class="contact">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta…</p>
+            </div>
+            <form class="form1">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="Usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>  
+        </section>
+          <footer>
+            <p class="foot">© 2021 Sejal Kashyap . All Rights Reserved<br></p>
+          </footer> 
+     
+    </body>
+</html>
